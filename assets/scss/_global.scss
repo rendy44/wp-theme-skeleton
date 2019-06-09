@@ -1,0 +1,27 @@
+//Our default style
+body {
+	.container {
+		&.main {
+			min-height: calc(100vh - 64px);
+		}
+	}
+}
+
+section {
+	padding: 100px 0;
+}
+
+hr {
+	&.divider {
+		width: 50px;
+		border-width: 3px;
+		border-color: $primary-color;
+	}
+}
+
+footer {
+	padding: 20px 0;
+	p {
+		margin-bottom: 0;
+	}
+}

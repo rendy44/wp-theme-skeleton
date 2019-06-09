@@ -1,0 +1,17 @@
+//Style for configuring masthead
+.masthead {
+	height: 100vh;
+	min-height: 500px;
+	background: url('../img/bg.jpg') no-repeat center;
+	background-size: cover;
+	&.small {
+		min-height: 200px;
+		max-height: 300px;
+	}
+	h1 {
+		margin-bottom: 1rem;
+	}
+	h2 {
+		margin-bottom: 1rem;
+	}
+}
