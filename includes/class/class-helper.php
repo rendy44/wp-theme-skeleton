@@ -99,5 +99,27 @@ if ( ! class_exists( '\Skeleton\Helper' ) ) {
 				}
 			}
 		}
+
+		/**
+		 * Simple $_POST request handler
+		 *
+		 * @param string $key post key.
+		 *
+		 * @return bool|mixed
+		 */
+		public static function post( $key ) {
+			return ! empty( $_POST[ $key ] ) ? $_POST[ $key ] : false; // phpcs:ignore
+		}
+
+		/**
+		 * Simple $_GET request handler
+		 *
+		 * @param string $key get key.
+		 *
+		 * @return bool|mixed
+		 */
+		public static function get( $key ) {
+			return ! empty( $_GET[ $key ] ) ? $_GET[ $key ] : false; // phpcs:ignore
+		}
 	}
 }
