@@ -5,3 +5,7 @@
  * @author  Rendy
  * @package Includes
  */
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
