@@ -2,6 +2,7 @@
 /**
  * Put all helpful functions that you may use for multiple times
  *
+ * @author Rendy
  * @package Helpers
  */
 
